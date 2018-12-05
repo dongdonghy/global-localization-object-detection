@@ -57,6 +57,6 @@ Before initial pose, you need to run the following node in ROS
 * `visilize.py`: an example script to test the frozen model with a video
 * `send_goal.cpp`: we also provide a function which can send the navigation goal through voice recognition. Here we use the baidu package:
 https://github.com/DinnerHowe/baidu_speech
-* `center path`: which you need to alter the grid_path.cpp in global planner package of navation stack.
+* `center path`: you need to alter the `grid_path.cpp` and input your own path in global planner package of navation stack.
 <div align=center><img src="https://github.com/dongdonghy/global-localization-object-detection/raw/master/images/center_path.png" width="600"/></div>
 
