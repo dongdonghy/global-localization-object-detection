@@ -22,12 +22,7 @@ Global localization is a key problem in autonomous robot. We use semantic map an
 * In ROS system, if we use move_base package, we need to input an 2D initial pose by hand:
 ![image](https://github.com/dongdonghy/global-localization-object-detection/raw/master/images/artificial_pose.jpg)
 
-<p align="center">
-    <img src="https://github.com/dongdonghy/global-localization-object-detection/raw/master/images/artificial_pose.jpg" alt="Sample"  width="300" height="150">
-    <p align="center">
-        <em>artificial_pose</em>
-    </p>
-</p>
+<img src="https://github.com/dongdonghy/global-localization-object-detection/raw/master/images/artificial_pose.jpg" alt="Sample"  width="300"/>
 
 
 * Therefore, we want to calculate the initial pose automatically.
